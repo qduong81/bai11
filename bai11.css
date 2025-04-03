@@ -1,0 +1,39 @@
+.box{
+    background-color: rgb(128, 118, 118);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(128, 118, 118);
+    padding: 10px;
+}
+.tong{
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.icon{
+    display: none;
+}
+
+@media only screen and (max-width :600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 230px;
+        position: relative;
+        align-items: center;
+    }
+    .icon{
+        display: block;
+        width: 30px;
+        position: absolute;
+        top:10px;
+        right: 10px;
+        
+    }
+    .line{
+       border: 1px solid #fff;
+       width: 100%;
+       margin-top: 20px;
+    }
+}
